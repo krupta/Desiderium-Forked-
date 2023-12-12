@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-right
+  x = -70
+  width = 63
+  action = addtexture
+  actionid = 9fe78d36-a4b6-4783-a19b-4081af4e924a1698338081456
+  y = -54
+  height = 46
+}
+
