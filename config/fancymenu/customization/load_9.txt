@@ -4,8 +4,13 @@ customization-meta {
   identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
   randomgroup = 1
   renderorder = foreground
-  randommode = false
+  randommode = true
   randomonlyfirsttime = false
+}
+
+customization {
+  path = config/lateresourses/ls3.png
+  action = texturizebackground
 }
 
 customization {
@@ -20,7 +25,7 @@ customization {
   x = 128
   width = 278
   action = deep_customization_element:drippy_overlay_logo
-  actionid = e92cd5c2-efb1-4003-b383-82d03aa1b2c21698338328557
+  actionid = 1625c701-0fb3-4dc0-b77e-311dc8c9c9681692267356575
   y = 105
   height = 68
 }
@@ -31,7 +36,7 @@ customization {
   x = -1000000
   width = 0
   action = deep_customization_element:drippy_overlay_background
-  actionid = 2edf2569-2b27-4a84-adb1-368a12d9e1b71698338329153
+  actionid = 55a36c34-dab7-4667-be42-56c4d9d8257d1692267356583
   y = -1000000
   height = 0
 }
@@ -43,19 +48,19 @@ customization {
   x = 128
   width = 278
   action = deep_customization_element:drippy_overlay_progress_bar
-  actionid = 1ab3af82-7eb8-477f-a7e7-1b670cafacf01698338329153
+  actionid = dd8ab9d2-b691-479c-bb88-46d98bc366ef1692267356584
   y = 227
   height = 10
 }
 
 customization {
-  path = config/lateresourses/crystal.gif
-  orientation = bottom-right
-  x = -65
-  width = 60
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
   action = addtexture
-  actionid = 4db90fd4-e7a5-419c-bc51-d8db6f1018971699800383136
-  y = -65
-  height = 60
+  actionid = d40b0084-d6b2-4927-96f8-b6bbe5a727061692267435062
+  y = 6
+  height = 100
 }
 
