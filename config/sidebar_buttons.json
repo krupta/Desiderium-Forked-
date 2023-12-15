@@ -2,6 +2,9 @@
 	"ftbteams": {
 		"my_team": true
 	},
+	"ftbmoney": {
+		"shop": true
+	},
 	"ftbquests": {
 		"quests": true
 	},
@@ -10,5 +13,8 @@
 		"toggle.rain": false,
 		"toggle.day": false,
 		"toggle.night": false
+	},
+	"ftbchunks": {
+		"chunks": true
 	}
 }

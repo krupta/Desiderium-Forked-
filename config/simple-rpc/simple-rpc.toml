@@ -1,8 +1,6 @@
-
-#General Config Section. See https://readme.firstdarkdev.xyz/simple-rpc/introduction/
 [general]
-	#The Application ID of the Discord App to use
-	applicationID = 1163564981502083215
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1136518862070894633
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -14,7 +12,6 @@
 	#Internal Version Number. NO TOUCHY!
 	version = 18
 
-#The Game Loading event
 [init]
 	#Enable/Disable the Game Loading Event
 	enabled = true
@@ -22,62 +19,77 @@
 	description = "%player% заправляет дирижабль"
 	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Майнкрафт Сборка [%mcver%]"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["https://www.dropbox.com/scl/fi/3yytv5pmonpds8sba9rsc/gravito_crystall_icon.png?rlkey=qzmf4edoq17e52vivwsczjaq9&dl=1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% модов установлено"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[init.buttons]]
-		label = "Создано Saudade Studio"
+		label = "Создано Saudate Studio"
 		url = "https://saudade-studio.ru/"
 
-#The Main Menu event
+	[[init.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [main_menu]
 	#Enable/Disable the Main Menu Event
 	enabled = true
 	#The first line of text under the app name
 	description = "%player% перевернул сознание"
-	#The seconds line of text under the app name
+	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Майнкрафт Сборка [%mcver%]"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["https://www.dropbox.com/scl/fi/6k2s7bmxmcaveb3i4s07a/iron_gear_icon.png?rlkey=itpf9ylnpwn21yljvr5qmtuvh&dl=1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "Находится в Меню"
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[main_menu.buttons]]
-		label = "Создано Saudade Studio"
+		label = "Создано Saudate Studio"
 		url = "https://saudade-studio.ru/"
 
-#The Server List event
+	[[main_menu.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [server_list]
 	#Enable/Disable the Server List Event
-	enabled = false
+	enabled = true
 	#The first line of text under the app name
-	description = "%player% is looking for a server"
+	description = "%player% смотрит сервера"
 	#The second line of text under the app name
-	state = "Searching for friends"
-	#The Asset ID of the image to display as the large image
-	largeImageKey = ["mclogonew"]
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
-	smallImageKey = ["mclogo"]
+	largeImageText = "Майнкрафт Сборка [%mcver%]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["https://www.dropbox.com/scl/fi/uslz7n9fdw20gw33nksgc/note_book.png?rlkey=yudqeblm7ne95ppjlpfmmj570&dl=1"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
-	buttons = []
+	smallImageText = "В поисках вечности"
+	#The buttons to display on Discord 
 
-#The Realms Screen event
+	[[server_list.buttons]]
+		label = "Создано Saudate Studio"
+		url = "https://saudade-studio.ru/"
+
+	[[server_list.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [realms_list]
 	#Enable/Disable the Realms Screen Event
 	enabled = false
@@ -85,18 +97,17 @@
 	description = "%player% is looking for a Realm"
 	#The second line of text under the app name
 	state = "Browsing Realms"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
+	#The buttons to display on Discord 
 	buttons = []
 
-#The Join Game Event
 [join_game]
 	#Enable/Disable the Join Game Event
 	enabled = false
@@ -104,18 +115,17 @@
 	description = "%player% is joining a game"
 	#The second line of text under the app name
 	state = "Joining Game"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods installed"
-	#The buttons to display on Discord
+	#The buttons to display on Discord 
 	buttons = []
 
-#The Single Player Event
 [single_player]
 	#Enable/Disable the Single Player Event
 	enabled = true
@@ -123,21 +133,25 @@
 	description = "Обитает  в %world%"
 	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Майнкрафт Сборка [%mcver%]"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["https://www.dropbox.com/scl/fi/kmhe9hlkh3sq1f7e4gv6r/wandering_icon.png?rlkey=19ow0bthk5n46auoisxgu9hhs&dl=1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = ""
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[single_player.buttons]]
-		label = "Создано Saudade Studio"
+		label = "Создано Saudate Studio"
 		url = "https://saudade-studio.ru/"
 
-#The Multi Player Event
+	[[single_player.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [multi_player]
 	#Enable/Disable the Multi Player Event
 	enabled = true
@@ -145,21 +159,25 @@
 	description = "Покоряет %servername%"
 	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = ""
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["https://www.dropbox.com/scl/fi/kmhe9hlkh3sq1f7e4gv6r/wandering_icon.png?rlkey=19ow0bthk5n46auoisxgu9hhs&dl=1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = ""
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[multi_player.buttons]]
-		label = "Создано Saudade Studio"
+		label = "Создано Saudate Studio"
 		url = "https://saudade-studio.ru/"
 
-#The Realms Game Event
+	[[multi_player.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [realms]
 	#Enable/Disable the Realms Game Event
 	enabled = false
@@ -167,154 +185,138 @@
 	description = "Playing on %realmname%"
 	#The second line of text under the app name
 	state = "Playing on a Realm"
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["mclogonew"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "It's Minecraft %mcver%, but modded"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
-	#The buttons to display on Discord
+	#The buttons to display on Discord 
 	buttons = []
 
-#Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
 	description = "%player% путешествует"
 	#The second line of text under the app name
 	state = ""
-	#The Asset ID of the image to display as the large image
+	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "Майнкрафт Сборка [%mcver%]"
-	#The Asset ID of the image to display as the small image
+	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["https://www.dropbox.com/scl/fi/3yytv5pmonpds8sba9rsc/gravito_crystall_icon.png?rlkey=qzmf4edoq17e52vivwsczjaq9&dl=1"]
 	#The text that gets displayed when the small image is hovered
 	smallImageText = ""
+	#The buttons to display on Discord 
 
-	#The buttons to display on Discord
 	[[generic.buttons]]
-		label = "Создано Saudade Studio"
+		label = "Создано Saudate Studio"
 		url = "https://saudade-studio.ru/"
 
-#Custom Config Variables that you can use
+	[[generic.buttons]]
+		label = "Дополнено LateTeam"
+		url = "https://discord.gg/hcMGhSTYdY"
+
+
 [custom]
 	#Must these variables be parsed along with other variables
 	enabled = false
 	#Your custom variables to add
 	variables = []
 
-#Dimension Information Overrides
 [dimension_overrides]
-	#Allows you to override the displayed values for dimensions
 	enabled = true
 
-	#The Dimensions to override
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "wasteland:wasteland"
-		#The first line of text under the app name
 		description = "%player% бредёт в Пустоши"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
 		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
 		smallImageKey = ["https://www.dropbox.com/scl/fi/9slru1afnxcx7yc3w9jr4/wasteland.png?rlkey=g390ul1t3njoi8ay5n18mtj9b&dl=1"]
-		#The text that gets displayed when the small image is hovered
 		smallImageText = ""
 
-		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
+			label = "Создано Saudate Studio"
 			url = "https://saudade-studio.ru/"
 
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Дополнено LateTeam"
+			url = "https://discord.gg/hcMGhSTYdY"
+
+
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "ecod:the_depths"
-		#The first line of text under the app name
-		description = "%player% проходит сборку"
-		#The second line of text under the app name
+		description = "%player% ходит вверх ногами"
 		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = []
-		#The text that gets displayed when the large image is hovered
+		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
 		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["https://www.dropbox.com/scl/fi/rscmuw0zc89teocoy6ipj/wandering_icon.png?rlkey=iyz8u6lngtror5004a83km6u1&dl=1"]
-		#The text that gets displayed when the small image is hovered
+		smallImageKey = ["https://www.dropbox.com/scl/fi/02yrh6u3875q7p4lxlh7g/magic_bottle_icon.png?rlkey=pkwi58it6f9kx8r6jnqio1p19&dl=1"]
 		smallImageText = ""
 
-		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
+			label = "Создано Saudate Studio"
 			url = "https://saudade-studio.ru/"
 
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Дополнено LateTeam"
+			url = "https://discord.gg/hcMGhSTYdY"
+
+
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "cyao_coreworld:core_dimension_one"
-		#The first line of text under the app name
 		description = "%player% опустился к Ядру"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
 		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
 		smallImageKey = ["https://www.dropbox.com/scl/fi/i6c54qkzeryk9q3jm60at/core_icon.png?rlkey=81bteiyi8s3t28b76f5wh2o1y&dl=1"]
-		#The text that gets displayed when the small image is hovered
 		smallImageText = ""
 
-		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
+			label = "Создано Saudate Studio"
 			url = "https://saudade-studio.ru/"
-			
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Дополнено LateTeam"
+			url = "https://discord.gg/hcMGhSTYdY"
+
+
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "cyao_coreworld:inner_place"
-		#The first line of text under the app name
 		description = "%player% встретился с прошлым"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
 		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
 		smallImageKey = ["https://www.dropbox.com/scl/fi/i6c54qkzeryk9q3jm60at/core_icon.png?rlkey=81bteiyi8s3t28b76f5wh2o1y&dl=1"]
-		#The text that gets displayed when the small image is hovered
 		smallImageText = ""
 
-		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
+			label = "Создано Saudate Studio"
 			url = "https://saudade-studio.ru/"
-			
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Дополнено LateTeam"
+			url = "https://discord.gg/hcMGhSTYdY"
+
+
 	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
 		name = "cyao_coreworld:core_dimension_final"
-		#The first line of text under the app name
 		description = "%player% постигает мироздание"
-		#The second line of text under the app name
 		state = ""
-		#The Asset ID of the image to display as the large image
 		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
 		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
 		smallImageKey = ["https://www.dropbox.com/scl/fi/i6c54qkzeryk9q3jm60at/core_icon.png?rlkey=81bteiyi8s3t28b76f5wh2o1y&dl=1"]
-		#The text that gets displayed when the small image is hovered
 		smallImageText = ""
 
-		#The buttons to display on Discord
 		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
+			label = "Создано Saudate Studio"
 			url = "https://saudade-studio.ru/"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Дополнено LateTeam"
+			url = "https://discord.gg/hcMGhSTYdY"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -358,65 +360,4 @@
 			label = "Создано Saudade Studio"
 			url = "https://saudade-studio.ru/"
 
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "overworld"
-		#The first line of text under the app name
-		description = "%player% существует"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["https://www.dropbox.com/scl/fi/jf159n0ksgwdenorw610j/traveller_case.png?rlkey=mdcdv9tvbtviuuki47jwlg4wz&dl=1"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "Ты как сюда попал?"
 
-		#The buttons to display on Discord
-		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
-			url = "https://saudade-studio.ru/"
-
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_end"
-		#The first line of text under the app name
-		description = "%player% внемлет всем"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["https://www.dropbox.com/scl/fi/jf159n0ksgwdenorw610j/traveller_case.png?rlkey=mdcdv9tvbtviuuki47jwlg4wz&dl=1"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "Ты как сюда попал?"
-
-		#The buttons to display on Discord
-		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
-			url = "https://saudade-studio.ru/"
-
-	[[dimension_overrides.dimensions]]
-		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
-		name = "the_nether"
-		#The first line of text under the app name
-		description = "%player% сгорает внутри"
-		#The second line of text under the app name
-		state = ""
-		#The Asset ID of the image to display as the large image
-		largeImageKey = ["https://www.dropbox.com/scl/fi/tjpu26x8qecq8fxdj5s0f/_-_-_.png?rlkey=okrdw69upjrdnmd10iune8igq&dl=1"]
-		#The text that gets displayed when the large image is hovered
-		largeImageText = "Майнкрафт Сборка [%mcver%]"
-		#The Asset ID of the image to display as the small image
-		smallImageKey = ["https://www.dropbox.com/scl/fi/jf159n0ksgwdenorw610j/traveller_case.png?rlkey=mdcdv9tvbtviuuki47jwlg4wz&dl=1"]
-		#The text that gets displayed when the small image is hovered
-		smallImageText = "Ты как сюда попал?"
-
-		#The buttons to display on Discord
-		[[dimension_overrides.dimensions.buttons]]
-			label = "Создано Saudade Studio"
-			url = "https://saudade-studio.ru/"
