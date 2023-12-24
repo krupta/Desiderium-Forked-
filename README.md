@@ -1,3 +1,1 @@
-7 Бед, 
-Один ответ,
-Костыль и велосепед 
+https://github.com/Saudade-Studio-RU/Desiderium-Dedicated-Server
