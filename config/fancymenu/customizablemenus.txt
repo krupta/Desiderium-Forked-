@@ -27,3 +27,6 @@ net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
