@@ -11,7 +11,11 @@
 	quests: [
 		{
 			title: "&5О сборке"
-			icon: "ud_world_items:information_icon"
+			icon: {
+				id: "ud_world_items:information_icon"
+				Count: 1b
+				tag: { }
+			}
 			x: -1.0d
 			y: 1.0d
 			subtitle: "Desiderium - это..."
