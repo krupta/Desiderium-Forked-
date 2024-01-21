@@ -1,3 +1,0 @@
-identifier = menu_desiderium
-title = 
-allowesc = true
