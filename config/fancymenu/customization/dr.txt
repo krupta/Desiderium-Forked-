@@ -14,13 +14,13 @@ customization {
 }
 
 customization {
-  path = config/fancymenu/resources/img/duruzhabl.gif
+  path = config/lateresourses/crystal.gif
   orientation = bottom-right
-  x = -69
-  width = 63
+  x = -64
+  width = 60
   action = addtexture
-  actionid = 45015a70-81fc-47e2-b054-8c4ae18b018e1698337939595
-  y = -54
-  height = 46
+  actionid = 2a19bbdc-75a8-44ff-8fa5-95cdcbc2d9431699800542751
+  y = -65
+  height = 60
 }
 

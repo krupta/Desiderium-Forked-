@@ -29,7 +29,6 @@
 				"3003695F3A27EAC0"
 			]
 			hide: true
-			dependency_requirement: "one_completed"
 			size: 1.25d
 			id: "040483BB075CA73D"
 			tasks: [{
@@ -457,25 +456,12 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "71AEA39941963D3D"
-					type: "loot"
-					exclude_from_claim_all: true
-					table_id: 2698257103144768531L
-				}
-				{
-					id: "589F3DD4A4E4936E"
-					type: "item"
-					item: {
-						id: "seeds:leaf_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "71AEA39941963D3D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
 		}
 		{
 			title: "&rБольшой Восстановитель"
@@ -725,7 +711,7 @@
 				{
 					id: "1BD171CBD60EA669"
 					type: "questsadditions:structure"
-					title: "Постройте структуру! [Тык]"
+					title: "Постройте структуру!"
 					name: "tube_factory"
 					hasCustomPicture: false
 					layer: true

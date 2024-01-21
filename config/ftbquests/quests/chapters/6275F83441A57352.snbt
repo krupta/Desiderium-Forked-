@@ -67,15 +67,6 @@
 					type: "item"
 					item: "cyao_lore:note_15"
 				}
-				{
-					id: "29A0D8A80B3B86EF"
-					type: "command"
-					title: "Подготовка"
-					icon: "cyao_coreworld:corestone_lamp"
-					auto: "invisible"
-					command: "/tellraw @a {\"text\":\"Прежде чем отправиться к Ядру, стоит получше подготовиться.\"}"
-					player_command: false
-				}
 			]
 		}
 		{
@@ -295,19 +286,12 @@
 				type: "item"
 				item: "steam_gramophone:orange_disc"
 			}]
-			rewards: [
-				{
-					id: "086858D4BF26BBEB"
-					type: "item"
-					item: "alloyed:bronze_sheet"
-					count: 16
-				}
-				{
-					id: "6212AD7724117F0A"
-					type: "item"
-					item: "create:wand_of_symmetry"
-				}
-			]
+			rewards: [{
+				id: "086858D4BF26BBEB"
+				type: "item"
+				item: "alloyed:bronze_sheet"
+				count: 16
+			}]
 		}
 		{
 			x: 6.0d
@@ -350,24 +334,11 @@
 				type: "item"
 				item: "steam_gramophone:purple_disc"
 			}]
-			rewards: [
-				{
-					id: "681AF258C63AC3B7"
-					type: "item"
-					item: "storagedrawers:diamond_storage_upgrade"
-				}
-				{
-					id: "2AF91DDF0214F276"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "endertaur:potion_of_the_bull"
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "681AF258C63AC3B7"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
 		}
 		{
 			x: 4.0d
@@ -756,6 +727,26 @@
 					count: 4
 				}
 			]
+		}
+		{
+			title: "Кирпич"
+			icon: "ud_world_items:information_icon"
+			x: 1.0d
+			y: 5.0d
+			subtitle: "Всё плохо"
+			description: [
+				"Бригада намутила дров ..."
+				"Финальная часть сборки почти не тестировалась на сервере, но когда тестировали у нас ничего не работало..."
+				"Как бы это всё чинилось, но мы абсолютно без понятия как он себя поведёт..."
+				"Удачи."
+			]
+			dependencies: ["51A5745A32265B26"]
+			id: "22B2FD60557598FB"
+			tasks: [{
+				id: "60B84951C85A7B95"
+				type: "checkmark"
+				title: "Упс"
+			}]
 		}
 	]
 	quest_links: [ ]

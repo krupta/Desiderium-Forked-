@@ -1,0 +1,34 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &4&lPre-release version warning!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -59
+  width = 119
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ee93aa4e-1d41-4c44-b099-66687211484b1704978641097
+  y = 0
+  alignment = left
+  height = 40
+}
+

@@ -773,67 +773,6 @@
       }
     },
     {
-      "uid": "654613b3-c720-4e82-884a-03298f6d4dee",
-      "duration": 300,
-      "inputs": {
-        "item": [
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 1,
-              "ingredient": {
-                "item": "minecraft:bone_meal"
-              }
-            },
-            "chance": 1.0
-          },
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 1,
-              "ingredient": {
-                "item": "ars_nouveau:magebloom_crop"
-              }
-            },
-            "chance": 1.0
-          }
-        ],
-        "fluid": [
-          {
-            "content": {
-              "fluid": "minecraft:water",
-              "amount": 1000
-            },
-            "chance": 1.0
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 3,
-              "ingredient": {
-                "item": "ars_nouveau:magebloom"
-              }
-            },
-            "chance": 1.0
-          },
-          {
-            "content": {
-              "type": "multiblocked:sized",
-              "count": 1,
-              "ingredient": {
-                "item": "ars_nouveau:magebloom_crop"
-              }
-            },
-            "chance": 1.0
-          }
-        ]
-      }
-    },
-    {
       "uid": "58c64a68-cfd9-4f43-ba6e-7978e7dc26db",
       "duration": 300,
       "inputs": {

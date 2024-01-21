@@ -12,7 +12,7 @@
 				}
 			}
 			selling: false
-			stage: "shop"
+			stage: ""
 			onMouse: true
 			hideOnMouse: true
 			customGUI: false
@@ -508,7 +508,7 @@
 				}
 			}
 			selling: true
-			stage: "shop"
+			stage: ""
 			onMouse: true
 			hideOnMouse: true
 			customGUI: false
@@ -533,7 +533,7 @@
 			entries: [
 				{
 					item: { id: "minecraft:stone", Count: 64b }
-					price: 20L
+					price: 10L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -552,7 +552,7 @@
 				}
 				{
 					item: { id: "minecraft:gravel", Count: 64b }
-					price: 20L
+					price: 10L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -571,7 +571,7 @@
 				}
 				{
 					item: { id: "minecraft:sand", Count: 64b }
-					price: 30L
+					price: 20L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -590,7 +590,7 @@
 				}
 				{
 					item: { id: "minecraft:coarse_dirt", Count: 64b }
-					price: 35L
+					price: 25L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -609,7 +609,7 @@
 				}
 				{
 					item: { id: "minecraft:oak_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -628,7 +628,7 @@
 				}
 				{
 					item: { id: "minecraft:spruce_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -647,7 +647,7 @@
 				}
 				{
 					item: { id: "minecraft:birch_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -666,7 +666,7 @@
 				}
 				{
 					item: { id: "minecraft:jungle_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -685,7 +685,7 @@
 				}
 				{
 					item: { id: "minecraft:acacia_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -704,7 +704,7 @@
 				}
 				{
 					item: { id: "minecraft:dark_oak_log", Count: 32b }
-					price: 40L
+					price: 30L
 					selling: true
 					stage: ""
 					customBackground: false
@@ -723,7 +723,7 @@
 				}
 				{
 					item: { id: "create:limestone", Count: 64b }
-					price: 45L
+					price: 35L
 					selling: true
 					stage: "create_shop"
 					customBackground: false
@@ -742,7 +742,7 @@
 				}
 				{
 					item: { id: "minecraft:netherrack", Count: 64b }
-					price: 60L
+					price: 40L
 					selling: true
 					stage: "nether_shop"
 					customBackground: false
@@ -761,7 +761,7 @@
 				}
 				{
 					item: { id: "minecraft:soul_sand", Count: 64b }
-					price: 60L
+					price: 40L
 					selling: true
 					stage: "nether_shop"
 					customBackground: false
@@ -780,7 +780,7 @@
 				}
 				{
 					item: { id: "malum:tainted_rock", Count: 64b }
-					price: 70L
+					price: 40L
 					selling: true
 					stage: "magic_shop"
 					customBackground: false
@@ -799,7 +799,7 @@
 				}
 				{
 					item: { id: "malum:twisted_rock", Count: 64b }
-					price: 70L
+					price: 40L
 					selling: true
 					stage: "magic_shop"
 					customBackground: false
@@ -818,7 +818,7 @@
 				}
 				{
 					item: { id: "minecraft:crimson_stem", Count: 32b }
-					price: 75L
+					price: 45L
 					selling: true
 					stage: "nether_shop"
 					customBackground: false
@@ -837,7 +837,7 @@
 				}
 				{
 					item: { id: "minecraft:warped_stem", Count: 32b }
-					price: 75L
+					price: 45L
 					selling: true
 					stage: "nether_shop"
 					customBackground: false
@@ -856,7 +856,7 @@
 				}
 				{
 					item: { id: "minecraft:end_stone", Count: 64b }
-					price: 80L
+					price: 60L
 					selling: true
 					stage: "end_shop"
 					customBackground: false

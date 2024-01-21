@@ -135,7 +135,7 @@ onEvent('recipes', event => {
 	event.recipes.summoningrituals
 	.altar('spirit:soul_crystal')
 	.mobOutput('minecraft:witch')
-	.input('minecraft:flint', 'minecraft:nether_wart')
+	.input('minecraft:potion', 'minecraft:nether_wart')
 
 	//Визер-Скелет
 	event.recipes.summoningrituals
@@ -202,12 +202,6 @@ onEvent('recipes', event => {
 	.altar('spirit:soul_crystal')
 	.mobOutput('alchemy_boss:trapped_genius')
 	.input('create:brass_casing', 'create:powdered_obsidian', 'ud_world_items:mechanical_battery')
-	
-	//Заражённый
-	event.recipes.summoningrituals
-	.altar('spirit:soul_crystal')
-	.mobOutput('the_infested:infested')
-	.input('minecraft:slime_block', 'minecraft:slime_block', 'minecraft:slime_block')
 	
 });
 
