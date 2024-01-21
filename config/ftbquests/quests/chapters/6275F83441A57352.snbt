@@ -67,6 +67,15 @@
 					type: "item"
 					item: "cyao_lore:note_15"
 				}
+				{
+					id: "29A0D8A80B3B86EF"
+					type: "command"
+					title: "Подготовка"
+					icon: "cyao_coreworld:corestone_lamp"
+					auto: "invisible"
+					command: "/tellraw @a {\"text\":\"Прежде чем отправиться к Ядру, стоит получше подготовиться.\"}"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -286,12 +295,19 @@
 				type: "item"
 				item: "steam_gramophone:orange_disc"
 			}]
-			rewards: [{
-				id: "086858D4BF26BBEB"
-				type: "item"
-				item: "alloyed:bronze_sheet"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "086858D4BF26BBEB"
+					type: "item"
+					item: "alloyed:bronze_sheet"
+					count: 16
+				}
+				{
+					id: "6212AD7724117F0A"
+					type: "item"
+					item: "create:wand_of_symmetry"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -334,11 +350,24 @@
 				type: "item"
 				item: "steam_gramophone:purple_disc"
 			}]
-			rewards: [{
-				id: "681AF258C63AC3B7"
-				type: "item"
-				item: "storagedrawers:diamond_storage_upgrade"
-			}]
+			rewards: [
+				{
+					id: "681AF258C63AC3B7"
+					type: "item"
+					item: "storagedrawers:diamond_storage_upgrade"
+				}
+				{
+					id: "2AF91DDF0214F276"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "endertaur:potion_of_the_bull"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 4.0d

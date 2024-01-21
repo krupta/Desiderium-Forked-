@@ -12,64 +12,7 @@
 		{ item: "minecraft:writable_book", weight: 5 }
 		{ item: "minecraft:compass", weight: 5 }
 		{ item: "minecraft:spyglass", weight: 5 }
-		{
-			item: {
-				id: "minecraft:shield"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 5
-		}
-		{
-			item: {
-				id: "grapplemod:grapplinghook"
-				Count: 1b
-				tag: {
-					Damage: 0
-					custom: {
-						doublehook: 0b
-						motor: 0b
-						phaserope: 0b
-						attract: 0b
-						rocket: 0b
-						hookgravity: 1.0d
-						repelforce: 1.0d
-						attractradius: 3.0d
-						pullbackwards: 1b
-						smartmotor: 0b
-						detachonkeyrelease: 0b
-						angle: 20.0d
-						crc32: 2252267022L
-						rocket_vertical_angle: 0.0d
-						rocket_force: 1.0d
-						rocket_refuel_ratio: 15.0d
-						motorwhencrouching: 0b
-						motorwhennotcrouching: 1b
-						motordampener: 0b
-						rocket_active_time: 0.5d
-						throwspeed: 2.0d
-						motoracceleration: 0.2d
-						enderstaff: 0b
-						oneropepull: 0b
-						sneakingverticalthrowangle: 0.0d
-						smartdoublemotor: 1b
-						repel: 0b
-						sneakingangle: 10.0d
-						motormaxspeed: 4.0d
-						playermovementmult: 1.0d
-						reelin: 1b
-						sticky: 0b
-						verticalthrowangle: 0.0d
-						maxlen: 30.0d
-					}
-				}
-			}
-			weight: 4
-		}
-		{ item: "paraglider:paraglider", weight: 3 }
-		{ item: "waystones:waystone", weight: 3 }
+		{ item: "miners_delight:milk_cup", weight: 5 }
 		{ item: "grapplemod:baseupgradeitem", weight: 2 }
 		{ item: "paraglider:spirit_orb", count: 4, weight: 2 }
 		{ item: "paraglider:goddess_statue", weight: 2 }
@@ -96,6 +39,48 @@
 			}
 		}
 		{ item: "waystones:warp_scroll", weight: 3 }
+		{
+			item: {
+				id: "supplementaries:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "create_sa:slime_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:quiver"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 6
+						Items: [ ]
+						SelectedSlot: 0
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "supplementaries:rope_arrow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	loot_crate: {
 		drops: {

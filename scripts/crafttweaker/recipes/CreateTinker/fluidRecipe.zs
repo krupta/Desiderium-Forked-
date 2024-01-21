@@ -26,11 +26,11 @@ zinc - <fluid:kubejs:molter_zinc>
 //Brass
 {
     filling.create(<item:cyao_stuff:brass_sword_head>, <item:cyao_stuff:sword_head_pattern>, <fluid:kubejs:molter_brass> * 288);
-    filling.create(<item:cyao_stuff:brass_pickaxe_head>, <item:cyao_stuff:axe_head_pattern>, <fluid:kubejs:molter_brass> * 432);
-    filling.create(<item:cyao_stuff:brass_shovel_head>, <item:cyao_stuff:pickaxe_head_pattern>, <fluid:kubejs:molter_brass> * 432);
-    filling.create(<item:cyao_stuff:brass_axe_head>, <item:cyao_stuff:shovel_head_pattern>, <fluid:kubejs:molter_brass> * 144);
+    filling.create(<item:cyao_stuff:brass_pickaxe_head>, <item:cyao_stuff:pickaxe_head_pattern>, <fluid:kubejs:molter_brass> * 432);
+    filling.create(<item:cyao_stuff:brass_shovel_head>, <item:cyao_stuff:shovel_head_pattern>, <fluid:kubejs:molter_brass> * 432);
+    filling.create(<item:cyao_stuff:brass_axe_head>, <item:cyao_stuff:axe_head_pattern>, <fluid:kubejs:molter_brass> * 144);
 }
-//COpper
+//Copper
 {
     filling.create(<item:cyao_stuff:copper_sword_head>, <item:cyao_stuff:sword_head_pattern>, <fluid:kubejs:molter_copper> * 288);
     filling.create(<item:cyao_stuff:copper_axe_head>, <item:cyao_stuff:axe_head_pattern>, <fluid:kubejs:molter_copper> * 432);

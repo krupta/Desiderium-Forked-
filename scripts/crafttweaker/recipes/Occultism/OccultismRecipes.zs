@@ -114,3 +114,10 @@ id++;
 <recipetype:occultism:ritual>.removeByName("occultism:ritual/craft_soul_gem");
 <recipetype:occultism:ritual>.removeByName("occultism:ritual/craft_stabilizer_tier4");
 <recipetype:occultism:ritual>.removeByName("occultism:ritual/craft_dimensional_matrix");
+
+//Рецепт иезния
+id++;
+<recipetype:occultism:spirit_fire>.addJsonRecipe(name+id as string, {
+    ingredient : <item:minecraft:raw_iron_block>,
+    result : <item:occultism:iesnium_ore>
+});
