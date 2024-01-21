@@ -19,7 +19,7 @@
 				"&7Для меня эти Кристаллы - символ всех свершённых нами грехов за прошедшую историю. Мы получили их в качестве наказания и проверки, данной нам самими Хранителями как последнего шанса."
 			]
 			hide_dependency_lines: true
-			dependencies: ["1515AFCFF653E6B7"]
+			dependencies: ["1F872A0702C7DC8A"]
 			hide: true
 			size: 1.25d
 			id: "0ACD8C77BC7959A0"
@@ -194,7 +194,7 @@
 				{
 					id: "083D4FC1E11C369A"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "advanced_gravito_generator"
 					hasCustomPicture: false
 					layer: true
@@ -271,7 +271,7 @@
 				{
 					id: "2A44E4FF70193A1E"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "weaver1"
 					hasCustomPicture: false
 					layer: true
@@ -350,7 +350,7 @@
 				{
 					id: "6D6B9714091B41E0"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "interdimensional_gravity_quarry1"
 					hasCustomPicture: false
 					layer: true
@@ -450,7 +450,7 @@
 				{
 					id: "1874CC54D042A608"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "gravito_randomizer"
 					hasCustomPicture: false
 					layer: true
@@ -540,7 +540,7 @@
 				{
 					id: "72974A2B062748DE"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "gravito_void_chamber1"
 					hasCustomPicture: false
 					layer: true
@@ -628,8 +628,8 @@
 				{
 					id: "4EAC2D30A39BE608"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
-					name: "advanced_engineering_constructor"
+					title: "Постройте структуру! [Тык]"
+					name: "gravito_crafter"
 					hasCustomPicture: false
 					layer: true
 					ignoreState: false

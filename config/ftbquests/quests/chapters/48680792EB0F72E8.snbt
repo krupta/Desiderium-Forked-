@@ -32,7 +32,7 @@
 				{
 					id: "43A65BD9E55B8311"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "andesite_alloy_smelter"
 					hasCustomPicture: false
 					layer: true
@@ -721,6 +721,10 @@
 				"Для отображения структур нажмите на задание левой кнопки мыши, затем выведите его, прикрепите в мире нажатием ПКМ и начните строить.  Для преобразования контроллера или блоков входа/выхода используйте Гаечный Ключ, нажимая им ПКМ по определённому блоку. Для завершения квеста нажмите после создания механизма ЛКМ по условию."
 				""
 				"&7Стоит заметить, что Гаечный Ключ перестаёт быть полезным в создании структур даже после незначительной поломки. Это так неудобно..."
+				""
+				"&5Рецепты отдельных механизмов можно посмотреть в JEI, если вбить туда название определённого контроллера."
+				""
+				"Для повторого отображения голограммы структуры можно поставить в мире активированный контроллер и нажать по нему Shift + ПКМ. "
 			]
 			dependencies: ["3003695F3A27EAC0"]
 			hide: true
@@ -989,7 +993,7 @@
 				{
 					id: "0CFBC23245E207BD"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "engineering_alloy_smelter"
 					hasCustomPicture: false
 					layer: true
@@ -1058,7 +1062,7 @@
 				{
 					id: "1B698E3A4D29443E"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "engineering_constructor"
 					hasCustomPicture: false
 					layer: true
@@ -1146,7 +1150,7 @@
 			description: [
 				"&7Энергии вращения или базового топлива не может быть даже приблизительно достаточно для запитывания Мультиблочных механизмов. И если в начале мне хотя бы как-то удавалось балансировать на грани угля или вёдер с лавой, то сейчас придётся начать производить энергию чистого качества посредством всё тех же используемых ресурсов."
 				""
-				"&5В Генераторе Вы сможете добывать FE-энергию. Для этого просто закиньте во Входной Шлюз или Контроллер требуемые ресурсы, а затем через трубы передайте полученное в Энергохранилище."
+				"&5В Генераторе Вы сможете добывать FE-энергию. Для этого просто закиньте во Входной Шлюз или Контроллер требуемые ресурсы (уголь и т.д.), а затем через трубы передайте полученное в Энергохранилище."
 			]
 			dependencies: ["0B9189302064A77A"]
 			id: "45A04B52CCF0DC3F"
@@ -1154,7 +1158,7 @@
 				{
 					id: "08528863D405B971"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "generator1"
 					hasCustomPicture: false
 					layer: true
@@ -1221,7 +1225,7 @@
 				{
 					id: "0F7A57BBB93EBB3A"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "greenhouse"
 					hasCustomPicture: false
 					layer: true
@@ -1559,7 +1563,7 @@
 				{
 					id: "13A3C4D681548427"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "engineering_foundry"
 					hasCustomPicture: false
 					layer: true
@@ -1648,7 +1652,7 @@
 				{
 					id: "7EC3BE34C723A0D2"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "engineering_crusher"
 					hasCustomPicture: false
 					layer: true
@@ -1722,6 +1726,8 @@
 				"&7Если верить записям, так выглядит Древний Механизм по добыче Гравито-Кристаллов. Кажется несложным, нужно построить его как можно скорее. "
 				""
 				"&7Сами по себе Гравито-Кристаллы выглядят безобидно. Но люди научились пользоваться ими в обработке материалов и добыче энергии. И один или другой процесс стал первопричиной двух Катастроф. Осторожность не помешает, конечно."
+				""
+				"&5После выполнения этого задания для Вас откроется новая вкладка."
 			]
 			dependencies: ["37D6A16B53B9241B"]
 			id: "1F872A0702C7DC8A"
@@ -1729,7 +1735,7 @@
 				{
 					id: "2659C823066C8B72"
 					type: "questsadditions:structure"
-					title: "Разломите пространство!"
+					title: "Постройте структуру! [Тык]"
 					name: "interdimensional_drill2"
 					hasCustomPicture: false
 					layer: true
@@ -1808,7 +1814,7 @@
 				{
 					id: "3C311F8EED4487DF"
 					type: "questsadditions:structure"
-					title: "Постройте структуру! [ПКМ]"
+					title: "Постройте структуру! [Тык]"
 					name: "improved_generator"
 					hasCustomPicture: false
 					layer: true
@@ -1874,14 +1880,18 @@
 			x: 12.0d
 			y: 7.5d
 			subtitle: "Энергия на лаве"
-			description: ["Генерируем энергию на Лаве, Стержнях ифрита  и Магме."]
+			description: [
+				"Генерируем энергию на Лаве, Стержнях ифрита  и Магме."
+				""
+				"Особенно важно обращаться при подаче вёдер лавы или ресурсов к Create."
+			]
 			dependencies: ["37D6A16B53B9241B"]
 			id: "0872F14610B361E2"
 			tasks: [
 				{
 					id: "0807136BE99382AC"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "thermal_generator"
 					hasCustomPicture: false
 					layer: true
@@ -1946,7 +1956,7 @@
 				{
 					id: "3FAB4117F1B7B693"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "biogenerator"
 					hasCustomPicture: false
 					layer: true
@@ -2028,7 +2038,7 @@
 				{
 					id: "7B3D2415C6623202"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "flaming_star_chamber"
 					hasCustomPicture: false
 					layer: true
@@ -2119,7 +2129,7 @@
 				{
 					id: "35F7299D0CB1400F"
 					type: "questsadditions:structure"
-					title: "Постройте структуру!"
+					title: "Постройте структуру! [Тык]"
 					name: "improved_engineering_constructor"
 					hasCustomPicture: false
 					layer: true
@@ -2180,15 +2190,25 @@
 			]
 			rewards: [
 				{
-					id: "6962D4A43F6846E9"
-					type: "item"
-					item: "ud_world_items:raw_gravito_crystal"
-					count: 4
-				}
-				{
 					id: "5B320763617B090E"
 					type: "item"
 					item: "farmersdelight:stuffed_pumpkin_block"
+				}
+				{
+					id: "77FBEE1C08763249"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "500B28BFB0D38A40"
+					type: "item"
+					item: {
+						id: "create_sa:experience_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}

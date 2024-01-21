@@ -73,7 +73,25 @@
       "capacity": 300000,
       "maxReceive": 300000,
       "maxExtract": 300000
-    }
+    },
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "slotName": "thermal",
+        "x": 5,
+        "y": 78,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL",
+        "valid": [
+          "\"{Amount:1000,FluidName:\\\"minecraft:lava\\\"}\""
+        ]
+      }
+    ]
   },
   "properties": {
     "rotationState": "ALL",
