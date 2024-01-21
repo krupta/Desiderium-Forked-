@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-right
+  x = -69
+  width = 63
+  action = addtexture
+  actionid = 45015a70-81fc-47e2-b054-8c4ae18b018e1698337939595
+  y = -54
+  height = 46
+}
+

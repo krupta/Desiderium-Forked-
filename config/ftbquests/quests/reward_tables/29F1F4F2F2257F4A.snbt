@@ -1,0 +1,96 @@
+{
+	id: "29F1F4F2F2257F4A"
+	order_index: 3
+	title: "Кейс путешественника"
+	icon: "ud_world_items:traveller_case"
+	tags: ["q5"]
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:experience_bottle", count: 4, weight: 5 }
+		{ item: "minecraft:writable_book", weight: 5 }
+		{ item: "minecraft:compass", weight: 5 }
+		{ item: "minecraft:spyglass", weight: 5 }
+		{ item: "miners_delight:milk_cup", weight: 5 }
+		{ item: "grapplemod:baseupgradeitem", weight: 2 }
+		{ item: "paraglider:spirit_orb", count: 4, weight: 2 }
+		{ item: "paraglider:goddess_statue", weight: 2 }
+		{ item: "viescraftmachines:xegonite_shard", count: 4 }
+		{ item: "paraglider:stamina_vessel" }
+		{ item: "paraglider:heart_container" }
+		{
+			item: {
+				id: "seeds:leaf_hook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4
+		}
+		{
+			item: {
+				id: "occultism:satchel"
+				Count: 1b
+				tag: {
+					spiritName: "Rakylryn"
+				}
+			}
+		}
+		{ item: "waystones:warp_scroll", weight: 3 }
+		{
+			item: {
+				id: "supplementaries:slingshot"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "create_sa:slime_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:quiver"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 6
+						Items: [ ]
+						SelectedSlot: 0
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "supplementaries:rope_arrow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 3913937
+		item_name: "Кейс путешественника"
+		glow: 1b
+		string_id: "avd_loot_box"
+	}
+}
